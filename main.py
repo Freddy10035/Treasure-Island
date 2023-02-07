@@ -23,6 +23,8 @@
 #     elif age <= 20:
 #         bill = 500
 #         print("You will pay KES500.")
+#     elif age >= 45 and age <= 55:
+#         print("Everything is going to be fine. Get a free ride!")
 #     else:
 #         bill = 700
 #         print("Pay KES700.")
@@ -105,29 +107,71 @@
 #################################################################################
 
 # 🚨 Don't change the code below 👇
-print("Welcome to Python Pizza Deliveries!")
-size = input("What size pizza do you want? S, M, or L ")
-add_pepperoni = input("Do you want pepperoni? Y or N ")
-extra_cheese = input("Do you want extra cheese? Y or N ")
-# 🚨 Don't change the code above 👆
+# print("Welcome to Python Pizza Deliveries!")
+# size = input("What size pizza do you want? S, M, or L ")
+# add_pepperoni = input("Do you want pepperoni? Y or N ")
+# extra_cheese = input("Do you want extra cheese? Y or N ")
+# # 🚨 Don't change the code above 👆
+#
+# # Write your code below this line 👇
+#
+# bill = 0
+# if size == "S":
+#     bill = 15
+#     if add_pepperoni == "Y":
+#         bill += 2
+# elif size == "M":
+#     bill = 20
+#     if add_pepperoni == "Y":
+#         bill += 3
+# elif size == "L":
+#     bill = 25
+#     if add_pepperoni == "Y":
+#         bill += 3
+# if extra_cheese == "Y":
+#     bill += 1
+#
+# print(f"Your final bill is: ${bill}")
 
-# Write your code below this line 👇
+#################################################################################
+# testing the compatibility between two people
+#################################################################################
 
-bill = 0
-if size == "S":
-    bill = 15
-    if add_pepperoni == "Y":
-        bill += 2
-elif size == "M":
-    bill = 20
-    if add_pepperoni == "Y":
-        bill += 3
-elif size == "L":
-    bill = 25
-    if add_pepperoni == "Y":
-        bill += 3
-if extra_cheese == "Y":
-    bill += 1
+# # 🚨 Don't change the code below 👇
+# print("Welcome to the Love Calculator!")
+# name1 = input("What is your name? \n")
+# name2 = input("What is their name? \n")
+# # 🚨 Don't change the code above 👆
+#
+# # Write your code below this line 👇
+# name1_to_lower = name1.lower()
+# name2_to_lower = name2.lower()
+# T = name1_to_lower.count("t") + name2_to_lower.count("t")
+# R = name1_to_lower.count("r") + name2_to_lower.count("r")
+# U = name1_to_lower.count("u") + name2_to_lower.count("u")
+# E = name1_to_lower.count("e") + name2_to_lower.count("e")
+#
+# L = name1_to_lower.count("l") + name2_to_lower.count("l")
+# O = name1_to_lower.count("o") + name2_to_lower.count("o")
+# V = name1_to_lower.count("v") + name2_to_lower.count("v")
+# E = name1_to_lower.count("e") + name2_to_lower.count("e")
+#
+# true = T + R + U + E
+# love = L + O + V + E
+#
+# true_to_string = str(true)
+# love_to_string = str(love)
+# score = true_to_string + love_to_string
+# score_to_int = int(score)
+#
+# if score_to_int < 10 or score_to_int > 90:
+#     print(f"Your score is {score_to_int}, you go together like coke and mentos.")
+# elif 40 <= score_to_int <= 50:
+#     print(f"Your score is {score_to_int}, you are alright together.")
+# else:
+#     print(f"Your score is {score_to_int}.")
 
-print(f"Your final bill is: ${bill}")
+#################################################################################
+# automatic pizza order program.
+#################################################################################
 
